@@ -24,6 +24,12 @@ Ce dépôt contient un projet Python simple avec :
 
 5. Ajouter des badges de réussite d'execution de vos tests et de votre linter dans le readme (voir ***GITHUB_BADGES_GUIDE.md***)
 
+## Tests
+[![Run Tests](https://github.com/NicoChlebo/PARTIEL_3INFO_DEVOPS/actions/workflows/run-tests.yml/badge.svg)](https://github.com/NicoChlebo/PARTIEL_3INFO_DEVOPS/actions/workflows/run-tests.yml)
+
+## Linter
+[![Lint Code](https://github.com/NicoChlebo/PARTIEL_3INFO_DEVOPS/actions/workflows/linter.yml/badge.svg)](https://github.com/NicoChlebo/PARTIEL_3INFO_DEVOPS/actions/workflows/linter.yml)
+
 6. Améliorer le code pour réussir le linter
 
 7. Rendre le lien de votre répository contenant les github actions que vous aurez implémenté. 
