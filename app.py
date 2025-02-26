@@ -4,18 +4,19 @@ def add(a, b):
 
 
 def multiply(x, y):
+    """Multiplie deux nombres."""
     return x * y
 
 
 def divide(x, y):
-    beta = 0  # Variable inutilisée, tu peux la supprimer si elle n'est pas nécessaire
+    """Divise x par y en vérifiant que y n'est pas nul."""
     if y != 0:
         return x / y
+    return None 
 
 
 def greet(name):
     """Génère un message de salutation."""
     if name == "":
         return "Hello, World!"
-    else:
-        return "Hello, " + name
+    return f"Hello, {name}" 
